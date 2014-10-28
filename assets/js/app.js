@@ -6,11 +6,11 @@ function generate() {
     var startto  = 0;
     var service  = urlparts[startto] || '';
     var length   = urlparts[startto+1] || 12;
-    var password = document.getElementById('password').value + length;
+    var password = document.getElementById('password').value;
     document.getElementById('password').value = null;
 
     document.body.className = 'answer';
-    document.getElementById('answer').innerHTML = btoa(CryptoJS.SHA256(service + password).toString()).slice(0, length);
+    document.getElementById('answer').innerHTML = btoa(CryptoJS.SHA256(service + password + length).toString()).slice(0, length);
 
     return false;
 }
