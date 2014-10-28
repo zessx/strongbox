@@ -14,7 +14,7 @@ Installation
 
 Usage
 -----
-<center>![Usage](assets/img/usage.png)</center>
+![Usage](https://raw.githubusercontent.com/zessx/strongbox/master/assets/img/usage.png)
 
 Access to Strongbox page, adding a public key to your URL: 
     
