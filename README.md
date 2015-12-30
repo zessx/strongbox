@@ -1,4 +1,5 @@
-> :exclamation: This repository is no longer maintained and could present various security holes. You are encouraged to check the [2Keys](https://github.com/zessx/2keys) project.
+> :exclamation: This repository is no longer maintained and could present various security holes.   
+> :exclamation: You are encouraged to check the [2Keys](https://github.com/zessx/2keys) project.
 
 Strongbox
 =========
